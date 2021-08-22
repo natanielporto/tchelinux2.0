@@ -16,7 +16,7 @@ module.exports = {
         live: '3.5rem',
       },
       inset: {
-        liveIconRight: '12.45rem',
+        liveIconRight: '11.5rem',
         liveIconTop: '-1.95rem',
       },
     },

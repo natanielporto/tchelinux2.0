@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const NavBar = () => {
-  const [language, setLanguage] = useState(true);
+  const [language, setLanguage] = useState<boolean>(true);
 
   const links = [
     { ref: 'https://wiki.tchelinux.org/#!sobre.md', text: 'Sobre o Tchelinux' },
@@ -15,8 +15,8 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-end">
-      {links.map((el) => (
-        <a href={el.ref} className="m-5 pb-2 transition duration-150 border-b-4 border-transparent hover:border-red-500">{el.text}</a>
+      {links.map((el, index) => (
+        <a key={String(el.text + index)} href={el.ref} target="_blank" className="m-5 pb-2 transition duration-150 border-b-4 border-transparent hover:border-red-500" rel="noreferrer">{el.text}</a>
       ))}
       <button type="button" onClick={() => setLanguage(!language)}>
         <img
