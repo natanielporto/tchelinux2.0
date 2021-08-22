@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "lemon";
+    src: url("/fonts/LEMONMILK-Bold.woff2") format("woff2"),
+         url("/fonts/LEMONMILK-Bold.woff") format("woff");
+    font-weight: 900;
+  }
+}
+
+html {
+  font-family: Montserrat;
+}
+
+body {
+  background-image: url("../assets/bgbottom.png");
+  background-size: cover;
+}
