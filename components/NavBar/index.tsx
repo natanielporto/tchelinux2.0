@@ -1,28 +1,28 @@
 import React, { useState } from 'react';
+import styles from '../../styles/components/NavBar.module.css';
 
 const NavBar = () => {
   const [language, setLanguage] = useState<boolean>(true);
 
   const links = [
-    { ref: 'https://wiki.tchelinux.org/#!sobre.md', text: 'Sobre o Tchelinux' },
-    { ref: 'https://wiki.tchelinux.org/#!onde.md', text: 'Onde estamos?' },
+    { ref: 'https://wiki.tchelinux.org/#!sobre.md', text: 'Sobre' },
+    { ref: 'https://forms.gle/ugDGs3oTTnkfhL7J7', text: 'Chamada de Trabalhos' },
     { ref: 'https://wiki.tchelinux.org/#!como_participar.md', text: 'Como participar?' },
     { ref: 'https://wiki.tchelinux.org/#!como_ajudar.md', text: 'Como ajudar?' },
-    { ref: 'https://live.tchelinux.org/', text: 'Calendário de eventos' },
-    { ref: 'https://certificados.tchelinux.org/', text: 'Certificados' },
-    { ref: 'https://wiki.tchelinux.org/#!index.md', text: 'Wiki' },
+    { ref: 'https://live.tchelinux.org/', text: 'Calendário' },
+    { ref: ' https://conduta.tchelinux.org/', text: 'Código de Conduta' },
   ];
 
   return (
-    <div className="flex justify-end">
+    <div className={styles.align}>
       {links.map((el, index) => (
-        <a key={String(el.text + index)} href={el.ref} target="_blank" className="m-5 pb-2 transition duration-150 border-b-4 border-transparent hover:border-red-500" rel="noreferrer">{el.text}</a>
+        <a key={String(el.text + index)} href={el.ref} target="_blank" className={styles.link} rel="noreferrer">{el.text}</a>
       ))}
       <button type="button" onClick={() => setLanguage(!language)}>
         <img
           src={language ? 'https://lipis.github.io/flag-icon-css/flags/4x3/br.svg' : 'https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg'}
           alt={language ? 'Trocar linguagem para Inglês' : 'Change language to brazilian Portuguese'}
-          className="ml-5 mr-0 pb-2 w-8"
+          className={styles.image}
         />
       </button>
     </div>

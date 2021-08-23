@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         lemon: ["'lemon'", ...defaultTheme.fontFamily.sans],
+        poppins: ["'poppins'", ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         live: '3.5rem',

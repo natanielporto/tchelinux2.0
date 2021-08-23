@@ -1,0 +1,12 @@
+.align {
+  @apply flex justify-end;
+}
+
+.link {
+  @apply m-5 pb-2 transition duration-150 border-b-4 border-transparent hover:border-red-500;
+}
+
+.image {
+  @apply ml-5 mr-0 pb-2 w-8;
+}
+
