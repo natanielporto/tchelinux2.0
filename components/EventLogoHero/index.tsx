@@ -1,6 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
-import tux from '../../public/Tuxgaucho.svg';
+
 import styles from '../../styles/components/EventLogoHero.module.css';
 
 const wifiSvg = (
@@ -19,11 +18,6 @@ const EventLogoHero = () => (
       {wifiSvg}
       <div className={styles.tchelogo}>Tchelinux</div>
       <span className={styles.youtubelink}><a href="https://www.youtube.com/tchelinux" target="_blank" rel="noreferrer">youtube.com/tchelinux</a></span>
-    </div>
-
-    <div>
-      olá
-      <Image src={tux} height={300} width={300} alt="Tux Gaúcho" />
     </div>
   </>
 );

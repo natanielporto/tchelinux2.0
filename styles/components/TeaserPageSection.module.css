@@ -1,0 +1,16 @@
+.container {
+  @apply flex-1 px-16 text-justify;
+}
+
+.title {
+  @apply text-3xl mb-8 font-bold text-tche-red;
+}
+
+.description {
+  @apply text-xl mb-20 pb-5 border-b-2;
+}
+
+.list {
+  @apply text-xl pb-2;
+}
+

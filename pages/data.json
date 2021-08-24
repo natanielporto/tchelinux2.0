@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "id": "section-1",
+      "hash": "sobre",
+      "title": "Sobre",
+      "description": "Em 2020, por conta da pandemia e da necessidade de distanciamento social, o Tchelinux precisou se reinventar e realizou seu primeiro evento 100% online, que resultou em mais de 30 horas de atividades disponibilizadas em nosso canal do YouTube. Isso beneficiou não apenas os membros do grupo que não tiveram a oportunidade de participar de eventos em suas regiões ao longo do ano por conta da pandemia e do lockdown, mas também ajudou a romper barreiras geográficas, fazendo com que o trabalho do Tchelinux conseguisse chegar à um número maior de pessoas. Em ambos casos, todos tiveram acesso a um conteúdo técnico de qualidade, entregue de forma totalmente gratuita e sem a necessidade de deixar a segurança e o conforto de seus lares. Como ainda estamos passando por um momento que requer cuidados, e o distanciamento social é uma das poucas coisas que podemos fazer para garantir a segurança de todos, optamos por manter o nosso evento online e temos o prazer de anunciar o Tchelinux Live 2021. Da mesma forma que no ano que passou, teremos conteúdo de qualidade produzido por membros da comunidade brasileira, disponibilizado na íntegra e gratuitamente para todos através da internet."
+    },  
+   {
+      "id": "section-2",
+      "hash": "chamada",
+      "title": "Chamada de Trabalhos",
+      "description": "A chamada de trabalhos está aberta, e interessados em contribuir podem utilizar este formulário para realizar a submissão de suas propostas. O prazo para o envio é o dia 25 de Setembro e os autores dos trabalhos escolhidos serão notificados no dia 27 de Setembro. Nesta edição contaremos com 5 trilhas diferentes, com temas incluindo: Comunidade, Empreendedorismo e Aplicações Segurança, Sistemas Operacionais e IoT Desenvolvimento, Banco de Dados e AI Cloud e Big Data DevOps, SRE e Automação"
+    },
+  {
+      "id": "section-3",
+      "hash": "participar",
+      "title": "Como participar",
+      "description": "Para participar basta acessar e se inscrever no Canal do Tchelinux no YouTube. Não esqueça de clicar no sininho, para ser avisado quando novos vídeos e lives forem anunciados pelo grupo."
+    },
+  {
+      "id": "section-4",
+      "hash": "ajudar",
+      "title": "Como ajudar",
+      "description": "Além de submeter palestras, os interessados podem ajudar contribuindo com o Crowdfunding para o custeio das despesas do evento (produção de material gráfico, vinhetas, divulgação etc) e principalmente divulgando o evento para seus amigos e colegas em grupos e redes sociais."
+    },
+  {
+      "id": "section-5",
+      "hash": "calendario",
+      "title": "Calendário",
+      "description": [{"text": "Início da Chamada de Trabalhos:", "date": "25 de Agosto"}, {"text": "Fim da Chamada de Trabalhos:", "date": "26 de Setembro"}, {"text": "Notificação dos trabalhos selecionados:", "date": "29 de Setembro"}, {"text": "Prazo para envio dos vídeos:", "date": "31 de Outubro"}, {"text": "Anúncio da programação:", "date": "01 de Novembro"}, {"text": "Publicação dos vídeos:", "date": "08 de Novembro à 10 de Dezembro"}, {"text": "Live final do evento:", "date": "11 de Dezembro"}]
+    },
+  {
+      "id": "section-6",
+      "hash": "duvidas",
+      "title": "Dúvidas",
+      "description": "Caso você tenha alguma dúvida sobre o evento que não esteja neste site, por favor envie um e-mail para a equipe de organização em <tchelinux.eventos@gmail.com>."
+    }
+  ]
+}

@@ -3,6 +3,10 @@
         "es2021": true,
         "node": true
     },
+    "globals": {
+        "document": true,
+        "window": true
+    },
     "extends": [
         "plugin:react/recommended",
         "airbnb"
@@ -21,6 +25,23 @@
     "rules": {
       "no-use-before-define": "off",
       "@typescript-eslint/no-use-before-define": ["error"],
-      "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts", ".js", ".jsx"] }]
+      "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts", ".js", ".jsx"] }],
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
+         }
+      ]
+    },
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [".js", ".jsx", ".ts", ".tsx"]
+          }
+        }
     }
 }
